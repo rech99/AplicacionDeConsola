@@ -18,15 +18,15 @@ namespace AplicacionDeConsola
 
         public string Telefono { get; set; }
 
-        public Alumno(string nombre, string matricula, string direccion, string telefono)
+        public Alumno( string nombre, string matricula)
         {
 
-            Direccion = direccion;
-            Telefono = telefono;
+            Nombre = nombre;
+            Matricula = matricula;
         }
-        public Alumno(string nombre, string matricula)
+        public Alumno()
         {
-            Nombre = "Sin Asignar";
+            Nombre = "Pendiente";
             Matricula = "Sin Asignar";
         }
 
